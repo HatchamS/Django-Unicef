@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block content %}
+<main>
+    <div class="bandeau-presentation">
+        <img src="/media/Lyon_Place_Bellecour.JPG" alt="image de la place bellecour">
+        <h1>UNICEF Rhône</h1>
+
+    </div>
+    <section class="engagement commonParagraphe">
+        <p>Au cours de son assemblée plénière du 8 avril 2017 le Comité territorial Rhône-Loire-Ain a été officiellement créé, il regroupe les 3 anciens comités départementaux de ce territoire. <br>
+            Claude DUCOS-MIERAL, précédemment présidente du Comité du Rhône, a été élue présidente du Comité territorial.
+        </p>
+        <h2>Devenir bénévole</h2>
+        <p>Quel que soit votre âge, quel que soit votre métier, que vous soyez actif ou retraité, nous avons forcément une proposition à vous faire pour que vos talents, votre expérience et votre dynamisme soient mis au service des enfants du monde. <br>
+    
+            Mettez vos talents au service des enfants: rejoignez notre comité. <br>
+            Les ENFANTS ont besoin de l’UNICEF. <br>
+            L’UNICEF a besoin de VOUS. <br>
+        </p>
+        <img src="/media/les-enfants.JPG" alt="Les enfants devrait avoir les mêmes chances ?">
+    </section>
+    <div class="toggle" id="secretButton">
+        <input type="checkbox" id="switchButton" onclick="changeTextSwitch()">
+        <label for="" class="ctnbtn" id="contentSwitch">?</label>
+    </div>
+    <section class="secret" id="localisation">
+        
+        <iframe crossorigin="anonymous" id="mapSecretSection" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.28192147454!2d4.847013115365!3d45.76554002130658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eaf502fd24f9%3A0xdfaa5fc2428ac697!2s73%20Rue%20Vauban%2C%2069006%20Lyon!5e0!3m2!1sfr!2sfr!4v1647446804582!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <ul>
+            <li>En passant rue Vauban : un bénévole de l’équipe accueil répondra à toutes vos questions.</li>
+            <li>En prenant rendez vous par téléphone au 04 78 24 10 14</li>
+            <li>En prenant rendez vous par mail : unicef69@unicef.fr</li>
+        </ul>
+        <p>
+            Envoyez votre candidature à l’équipe UNICEF du Rhône,<br>
+            73, rue Vauban <br>
+            69006 LYON <br>
+            04 78 24 10 14 <br>
+            ou Remplissez Le formulaire en ligne sur le site UNICEF.fr !  
+        </p>
+
+    </section>
+
+    
+    
+</main>
+
+<script type="text/javascript" src="/static/toggle.js"></script>
+{% endblock %}
