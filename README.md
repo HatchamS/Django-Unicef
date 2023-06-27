@@ -9,8 +9,9 @@ Ensemble des détails en aval de la réalisation et choix technique :
 https://drive.google.com/drive/folders/1TPSmrgkNsUcrP7FPCefPT0Ko-Oa1QWYt?usp=drive_link
 
 Par manque de temps je n'ai pas terminé le projet, il manque la partie market et le système de cache. Mais peut-être un jour je le terminerai afin de continuer à apprendre sur ce frameWork.
-Le projet tourne avec docker
+Le projet tourne avec docker commande à lancé dans le répertoire DjangoSite : sudo docker-compose up
 
 
+Si vous aver l'erreur host not allow, rajouter l'ip local de votre machine dans la liste ALLOWED_HOSTS dans le fichier DjangoSite/blog/setting.py
 
 
